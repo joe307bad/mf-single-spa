@@ -6,7 +6,6 @@
   "private": false,
   "scripts": {
     "start": "ts-node scripts/start.ts",
-    "serve": "ts-node scripts/serve.ts",
     "setup": "ts-node scripts/setup.ts"
   },
   "dependencies": {

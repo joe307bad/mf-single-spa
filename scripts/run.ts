@@ -1,10 +1,10 @@
 import * as path from 'path';
-import buildWebpackConfiguration, { BuildConfiguration } from '../tooling/config';
+import buildWebpackConfiguration, { BuildConfiguration } from './config';
 import { omit } from 'lodash/fp';
 import { capitalCase } from 'change-case';
 import webpack, { Configuration } from 'webpack';
 import { PROJECTS } from '../registry';
-import serve from '../scripts/serve';
+import serve from './serve';
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const absPath = (p: string) => path.resolve(__dirname, p);
