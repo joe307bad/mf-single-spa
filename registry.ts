@@ -1,0 +1,1 @@
+export const PROJECTS = ['mf', 'madrox', 'saturn'] as const;
