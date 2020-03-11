@@ -6,8 +6,6 @@
   "private": false,
   "scripts": {
     "start": "ts-node scripts/start.ts",
-    "kill": "kill -9 $(lsof -ti:3000,3001)",
-    "watch": "webpack --watch",
     "serve": "ts-node scripts/serve.ts",
     "setup": "ts-node scripts/setup.ts"
   },
